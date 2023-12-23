@@ -11,7 +11,7 @@ const axios = require('axios');
 const getRandomPort = () => Math.floor(Math.random() * (3000 - 1024) + 1024);
 const PORT = getRandomPort();
 let currentPort = PORT;
-const REPL_HOME = `https://${process.env.REPL_SLUG}.${process.env.REPL_OWNER}.repl.co`.toLowerCase();
+const REPL_HOME = `https://${process.env.HOST}:${process.env.PORT}`.toLowerCase();
 
 app.get('/', function(req, res) {
   res.sendFile(path.join(__dirname, '/includes/login/cover/index.html'));
@@ -90,5 +90,3 @@ function uptime() {
     }
   }
 
-  // __@YanMaglinte was Here__ //
-// -----------------------------//
