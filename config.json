@@ -1,0 +1,215 @@
+{
+  "language": "en",
+  "DeveloperMode": true,
+  "autoCreateDB": false,
+  "allowInbox": true,
+  "autoClean": true,
+  "adminOnly": false,
+  "encryptSt": true,
+  "UPTIME": 200,
+  "commandDisabled": [],
+  "eventDisabled": [],
+  "BOTNAME": "𝗥𝗘𝗜𝗞𝗢 𝗔𝗜",
+  "BOTOWNER": "Kenneth Panio",
+  "OWNERID": [
+    "100081201591674"
+  ],
+  "GENDER": "Male",
+  "AGE": "Unknown",
+  "HEIGHT": "Unknown",
+  "STATUS": "Hindi Natutulog",
+  "approval": true,
+  "version": "1.5.1",
+  "OWNERLINK": "https://www.facebook.com/100081201591674",
+  "PREFIX": "/",
+  "SUBPREFIXES": [
+    "?",
+    "."
+  ],
+  "TOKEN": "EAAD6V7os0gcBO6LizJh17QZCJoX1VvMPlzoon4mXJEGrjqmUho3vGXKu6ecS7ZAz0cuh5DjpeUlgvqtztZCd3fsfYoqDQWQUYfXRmXxt3giIgvv2QSUxXbVZAuooDP0jEGg7iAbOuoBl1Y23m44P6fPZCAgaV2H65ePSz2NYC7GRdRgw83wIgCEXZAa8Q4VG53YAZDZD",
+  "BARDCOOKIE": "dwgAPQ6dpoN-5gwiNz12Ddp7eUNP3fvlCLhCwJFDMVDvhGrv2rZ3WJ29FZ_aZxbKH5_AZA.",
+  "userAgent": "Mozilla/5.0 (Linux; Android 11; TECNO LE6h) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/120.0.6099.26 WebviumDev/2.9-dev Mobile Safari/537.36",
+  "OPERATOR": [
+    "61550873742628",
+    "100081201591674",
+    "100083391157518",
+    "61550873742628",
+    "100071849140068",
+    "61553851666802"
+  ],
+  "ADMINBOT": [
+    "61550873742628",
+    "100081201591674",
+    "100026584028675",
+    "100024668080161",
+    "100092522829104",
+    "100086569202560",
+    "100068477288478",
+    "61553851666802"
+  ],
+  "APPROVED": [
+    "7431830633497637",
+    "100092191238232",
+    "7585334144826845",
+    "7225992434094687",
+    "100065275616162",
+    "100087474219482",
+    "100093565361217",
+    "7047084598670157",
+    "100086569202560",
+    "7556904027659003",
+    "6470215916428118",
+    "7601139283246264",
+    "61551843102898",
+    "100072230268215",
+    "100085330421655",
+    "100078358914149",
+    "100050681042506",
+    "6690543191027769",
+    "100086459705602",
+    "100084519413984",
+    "100039040104071",
+    "100084995947799",
+    "6818170631584048",
+    "100025678883014",
+    "6576367949137305",
+    "61552183984574",
+    "61550873742628",
+    "6666585843390666",
+    "6590464184354640",
+    "100034566464876",
+    "100076269693499",
+    "6769653323114601",
+    "100094396385512",
+    "61553474513266",
+    "100081201591674",
+    "100053136793692",
+    "100053390563228",
+    "61553789452023",
+    "6623188827804230",
+    "100073701655676",
+    "61553669530593",
+    "6843550052392742",
+    "61553684084547",
+    "100039588519060",
+    "61553851666802",
+    "5790308574381934",
+    "100093382254645",
+    "61554487767365"
+  ],
+  "DESIGN": {
+    "Title": "CODEBOX4CHAN",
+    "Theme": "Ghost",
+    "Admin": "REIKO DEV",
+    "Setup": {
+      "Title": "Design your own custom terminal Titlebar for the title and must contain no numbers",
+      "Theme": "Customize your console effortlessly with various theme colors. Explore Aqua, Fiery, Blue, Pink, Red, Retro, Sunlight, Teen, Summer, Flower, Ghost, and Hacker themes to enhance your terminal logs."
+    }
+  },
+  "APPSTATEPATH": "appstate.json",
+  "DEL_FUNCTION": false,
+  "ADD_FUNCTION": true,
+  "CONNECT_LOG": false,
+  "FCAOption": {
+    "forceLogin": false,
+    "listenEvents": true,
+    "autoMarkDelivery": false,
+    "autoMarkRead": false,
+    "logLevel": "error",
+    "selfListen": false,
+    "online": true
+  },
+  "daily": {
+    "cooldownTime": 43200000,
+    "rewardCoin": 500
+  },
+  "work": {
+    "cooldownTime": 1200000
+  },
+  "help": {
+    "autoUnsend": false,
+    "delayUnsend": 300
+  },
+  "adminUpdate": {
+    "autoUnsend": true,
+    "sendNoti": true,
+    "timeToUnsend": 10
+  },
+  "adminNoti": {
+    "autoUnsend": true,
+    "sendNoti": true,
+    "timeToUnsend": 10
+  },
+  "math": {
+    "WOLFRAM": "T8J8YV-H265UQ762K"
+  },
+  "sing": {
+    "YOUTUBE_API": "AIzaSyCqox-KXEwDncsuo2HIpE0MF8J7ATln5Vc",
+    "SOUNDCLOUD_API": "M4TSyS6eV0AcMynXkA3qQASGcOFQTWub"
+  },
+  "video": {
+    "YOUTUBE_API": "AIzaSyDtkiIIDpdjVA8ZbsLrkxEzW12lucdAKSQ"
+  },
+  "audio": {
+    "YOUTUBE_API": "AIzaSyDEE1-zZSRVI8lTaQOVsIAQFgL-_BJKvhk"
+  },
+  "menu": {
+    "autoUnsend": true,
+    "delayUnsend": 60
+  },
+  "faketoken": {
+    "autoUnsend": true,
+    "delayUnsend": 300
+  },
+  "redroom": {
+    "autoUnsend": true,
+    "delayUnsend": 200
+  },
+  "bank": {
+    "cooldownTime": 0
+  },
+  "cmd": {
+    "autoUnsend": true,
+    "delayUnsend": 180
+  },
+  "fbtoken": {
+    "autoUnsend": true,
+    "delayUnsend": 300
+  },
+  "hourly": {
+    "cooldownTime": 3600000,
+    "rewardCoin": 2700
+  },
+  "monthly": {
+    "cooldownTime": 2592000000,
+    "rewardCoin": 30000
+  },
+  "sauce": {
+    "SAUCENAO_API": "74acd50c6675726ccd11ae08b46307abccc0fdb1"
+  },
+  "sharetoken": {
+    "autoUnsend": true,
+    "delayUnsend": 300
+  },
+  "weather": {
+    "OPEN_WEATHER": "b7f1db5959a1f5b2a079912b03f0cd96"
+  },
+  "weeklybox": {
+    "cooldownTime": 604800000,
+    "rewardCoin": 14000
+  },
+  "workv3": {
+    "cooldownTime": 1200000
+  },
+  "yearlybox": {
+    "cooldownTime": 31536000000,
+    "rewardCoin": 50000000000
+  },
+  "logs": {
+    "enable": true
+  },
+  "token": {
+    "autoUnsend": true,
+    "delayUnsend": 300
+  }
+}

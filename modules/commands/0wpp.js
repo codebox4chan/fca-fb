@@ -1,0 +1,71 @@
+const axios = require('axios');
+const fs = require('fs-extra');
+const path = require('path');
+
+module.exports.config = {
+  name: "wpp",
+  credits: "reiko dev",
+  version: "4.5.0",
+  cooldowns: 10,
+  hasPermssion: 0,
+  description: "Search for wallpapers based on a keyword.",
+  usePrefix: false,
+  commandCategory: "image",
+  usage: "[word] [amount]",
+};
+
+module.exports.run = async function ({ api, event, args }) {
+  if (args.length < 1) {
+    api.sendMessage('Please provide a keyword for the wallpaper search.', event.threadID, event.messageID);
+    return;
+  }
+
+  const keyword = args[0];
+  let amount = args[1] || 1;
+
+  amount = parseInt(amount);
+
+  if (isNaN(amount) || amount <= 0) {
+    api.sendMessage('Please provide a valid positive integer for the amount.', event.threadID, event.messageID);
+    return;
+  }
+
+  try {
+    const response = await axios.get(`https://antr4x.onrender.com/get/searchwallpaper?keyword=${keyword}`);
+
+    if (response.data.status && response.data.img.length > 0) {
+      amount = Math.min(amount, response.data.img.length);
+      const imgData = [];
+
+      for (let i = 0; i < amount; i++) {
+        const image = response.data.img[i];
+        const imageName = `wallpaper_${i + 1}.jpg`;
+        const imagePath = path.join('cache', imageName);
+
+        try {
+          const imageResponse = await axios.get(image, { responseType: 'arraybuffer' });
+          await fs.writeFile(imagePath, Buffer.from(imageResponse.data, 'binary'));
+          imgData.push(imagePath);
+        } catch (error) {
+          console.error("Error downloading image:", error);
+        }
+      }
+
+      api.sendMessage({
+        attachment: imgData.map(imgPath => fs.createReadStream(imgPath)),
+        body: `Wallpapers of '${keyword}'`,
+      }, event.threadID, (err) => {
+        if (err) console.error("Error sending images:", err);
+
+        imgData.forEach(imgPath => {
+          fs.unlinkSync(imgPath);
+        });
+      });
+    } else {
+      api.sendMessage('No wallpapers found for the given keyword.', event.threadID, event.messageID);
+    }
+  } catch (error) {
+    console.error('Error fetching wallpaper images:', error);
+    api.sendMessage('An error occurred while fetching wallpaper images.', event.threadID, event.messageID);
+  }
+};

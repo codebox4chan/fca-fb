@@ -1,0 +1,19 @@
+{
+  "apiKey": {
+    "id": "56a6116c-0ef0-4a36-a83c-d86ae1d1bead",
+    "developerId": "8db616b6-fa1f-25f3-97ae-eba9db8e814d",
+    "tier": "developer/silver",
+    "name": "6af8e29d8f9a524bffe591f0",
+    "description": "6af8e29d8f9a524bffe591f0",
+    "origins": null,
+    "scopes": [
+      "clash"
+    ],
+    "cidrRanges": [
+      "35.233.140.27"
+    ],
+    "validUntil": null,
+    "key": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6IjU2YTYxMTZjLTBlZjAtNGEzNi1hODNjLWQ4NmFlMWQxYmVhZCIsImlhdCI6MTcwMzA3NjUyMiwic3ViIjoiZGV2ZWxvcGVyLzhkYjYxNmI2LWZhMWYtMjVmMy05N2FlLWViYTlkYjhlODE0ZCIsInNjb3BlcyI6WyJjbGFzaCJdLCJsaW1pdHMiOlt7InRpZXIiOiJkZXZlbG9wZXIvc2lsdmVyIiwidHlwZSI6InRocm90dGxpbmcifSx7ImNpZHJzIjpbIjM1LjIzMy4xNDAuMjciXSwidHlwZSI6ImNsaWVudCJ9XX0.9p8KwllnGEEuSHUTnWZgNVCjoYohWZReT0KNWpGYeTofCJ5bYrwTQsZbl9FjHFczlsOOhEUFhK-hAGVTadlfPw"
+  },
+  "ip": "35.233.140.27"
+}
