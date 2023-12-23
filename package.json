@@ -10,13 +10,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/D-Jukie/miraiv2.git"
+    "url": "git+https://github.com/codebox4chan/fca-fb.git"
   },
   "keywords": [
     "tiktok",
     "download"
   ],
-  "author": "D-Jukie",
+  "author": "Reiko Dev",
   "license": "GPL-3.0",
   "dependencies": {
     "@distube/ytdl-core": "^4.13.3",
