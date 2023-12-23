@@ -15,4 +15,5 @@ test*
 test2*
 nodemodules*
 package-lock*
+yarn*
 *.temp
