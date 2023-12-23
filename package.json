@@ -21,7 +21,6 @@
   "dependencies": {
     "@distube/ytdl-core": "^4.13.3",
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
-    "@types/node": "^20.10.4",
     "@xaviabot/fb-downloader": "^1.0.14",
     "adm-zip": "^0.5.9",
     "aes-js": "^3.1.2",
