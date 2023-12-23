@@ -2,9 +2,9 @@
     "name": "kennethpanio",
     "version": "4.0.0",
     "description": "simple messenger bot",
-    "main": "index.js",
+    "main": "node index.js",
     "scripts": {
-        "start": "index.js",
+        "start": "node index.js",
         "login": "node login",
         "test": "node --trace-warnings --use_strict --async-stack-traces index"
     },
