@@ -270,7 +270,8 @@ function onBot() {
               }
             }
 
-            if !config.hasOwnProperty('usePrefix')) {
+            if (!config.hasOwnProperty('usePrefix')) {
+
               console.log(`Command`, chalk.hex("#ff0000")(command) + ` does not have the "usePrefix" property.`);
               continue;
             }
