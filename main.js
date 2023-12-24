@@ -253,7 +253,7 @@ function onBot() {
             const module = require(`${commandsPath}/${command}`);
             const { config } = module;
 
-            if (!config?.name) {
+            if (!config.name) {
               try {
                 throw new Error(`[ COMMAND ] ${command} command has no name property or empty!`);
               } catch (error) {
