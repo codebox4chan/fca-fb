@@ -135,7 +135,6 @@
     "ytdl-core": "^4.11.5"
   },
   "devDependencies": {
-    "node-pre-gyp": "^1.0.11",
     "opencollective-postinstall": "^2.0.3"
   }
 }
