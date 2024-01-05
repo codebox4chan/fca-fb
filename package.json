@@ -1,5 +1,5 @@
 {
-  "name": "kennethpanio",
+  "name": "fca-fb",
   "version": "4.0.0",
   "description": "simple messenger bot",
   "main": "node index.js",
