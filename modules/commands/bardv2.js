@@ -41,9 +41,7 @@ return;
     try {
       let userName = await getUserName(api, senderID);
       const prompt = `${userName}: ${estorya}`;
-        const apiKey = 'aHR0cHM6Ly9iYXJkYXBpLmNvZGVib3g0Y2hhbi5yZXBsLmNv';
-        const reikodev = Buffer.from(apiKey, 'base64').toString('utf-8'); 
-      const response = await axios.get(`${reikodev}/google?question=${encodeURIComponent(prompt)}&cookie=${cookie}`);
+      const response = await axios.get(`https://reiko-api.vercel.app/bard?prompt=${encodeURIComponent(prompt)}&cookie=${cookie}`);
       
       const text = response.data.message || "";
       
