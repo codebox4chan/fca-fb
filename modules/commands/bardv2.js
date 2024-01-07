@@ -41,7 +41,7 @@ return;
     try {
       let userName = await getUserName(api, senderID);
       const prompt = `${userName}: ${estorya}`;
-      const response = await axios.get(`https://reiko-api.vercel.app/bard?prompt=${encodeURIComponent(prompt)}&cookie=${cookie}`);
+      const response = await axios.get(`https://reiko-api.vercel.app/bard?apiKey=codebox4chan&prompt=${encodeURIComponent(prompt)}&cookie=${cookie}`);
       
       const text = response.data.message || "";
       
