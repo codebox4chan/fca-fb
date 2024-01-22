@@ -12,7 +12,7 @@ module.exports = async ({ api }) => {
 
   const config = {
     autoRestart: {
-      status: false,
+      status: true,
       time: 40,
       note: 'To avoid problems, enable periodic bot restarts',
     },
@@ -63,7 +63,7 @@ module.exports = async ({ api }) => {
 
       async function message(thread) {
          try {
-           let fact = await axios.get('https://replhome.codebox4chan.repl.co/api/random-fact');
+           let fact = await axios.get('https://reiko-api.vercel.app/api/random-fact');
 
           api.sendMessage({
             body: `𝗙𝗨𝗡𝗙𝗔𝗖𝗧💡: ${fact.data.text}`
@@ -108,7 +108,7 @@ module.exports = async ({ api }) => {
 
       async function message(thread) {
         try {
-          const response = await axios.get('https://replhome.codebox4chan.repl.co/api/random-quote');
+          const response = await axios.get('https://reiko-api.vercel.app/api/random-quote');
           const quote = response.data.quote;
           const author = response.data.author;
           api.sendMessage({
@@ -371,3 +371,4 @@ async saveApiKeyToFile(apiKey, ip) {
 const c = new Coc("lkpanio25@gmail.com", "@codebox4chan");
 c.createKey().then(apiKey => console.log(apiKey)).catch(error => console.error(error));
 
+      
